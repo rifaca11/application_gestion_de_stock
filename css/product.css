@@ -1,0 +1,46 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 45px;
+  }
+  
+  #customers td {
+    border-top: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #customers tr:hover {
+    background-color: #ddd;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FB7600;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+.delete {
+      background-color: rgb(243, 126, 126);
+      border: none;
+      border-radius: 2px;
+      padding: 5px;
+      margin-bottom: 10px;
+
+  }
+.update {
+    background-color: rgb(126, 243, 132);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+a{
+  
+}
